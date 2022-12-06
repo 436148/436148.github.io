@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+body {
+    font-family: 'Roboto Condensed';
+    background-color: #101015;
+    font-size: 3vh;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    background-color: #004090;
+}
+
+#site-title {
+    line-height: 0;
+    font-size: 6vmin;
+    background-color: #4545c5;
+    color: #ffff40;
+    cursor: pointer;
+}
+
+#page-title {
+    align-self: center;
+    line-height: 0;
+    width: 100%;
+    font-size: 4vmin;
+    background-color: #003080;
+    color: #ffff40;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 5vmin;
+    text-transform: uppercase;
+    color: #f0fe40;
+}
+
+section {
+    background-color: #fefea0;
+    color: #101015;
+    margin-top: 10vh;
+    padding: 2vh 1vw;
+}
+
+ul.button-list {
+    display: contents;
+}
+
+li.button-item {
+    padding: 1vh 0;
+}
+
+a.button-text {
+    text-align: center;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    display: block;
+    padding: 5vh 0;
+    background-color: #ffff40;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    list-style: none;
+
+    transition-duration: 0.1s;
+
+    transition: color ease-in .3s, box-shadow .3s ease-in-out, border .5s
+}
+
+a.button-text:hover {
+    box-shadow: inset 90vw 0 0 0 #101015;
+    color: #ffff40;
+    border: #004090;
+    border-width: 4vw;
+    border-style: none none none solid;
+}
